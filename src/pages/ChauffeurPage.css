@@ -1,0 +1,67 @@
+.chauffeur-page {
+  --page-accent: #b87458;
+}
+
+.chauffeur-page .mode-page__intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.chauffeur-page .mode-page__eyebrow {
+  margin-bottom: 0.75rem;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+}
+
+.chauffeur-page .mode-page__title {
+  font-family: var(--app-font-serif);
+  font-size: clamp(2.25rem, 5vw, 2.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+.chauffeur-page .mode-page__description {
+  margin-top: 0.5rem;
+  color: #737d73;
+  font-size: 13px;
+}
+
+.chauffeur-page .mode-page__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.chauffeur-page .mode-page__action {
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  border: 1px solid #d9d7cc;
+  border-radius: 9999px;
+  background: #fbfaf6;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.chauffeur-page .mode-page__action:hover {
+  background: white;
+}
+
+.chauffeur-page .mode-page__action--active {
+  border-color: #28483d;
+  background: #28483d;
+  color: white;
+}
+
+.chauffeur-page .mode-page__eyebrow {
+  color: var(--page-accent);
+}
